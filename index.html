@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>Weather Dashboard</title>
+</head>
+<body>
+    <script src = "script.js"></script>
+    <nav class="navbar navbar-dark bg-dark justify-content-center">
+        <h1>Weather Dashboard</h1>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 city-list">
+                <h2>Search for a city:</h2>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Look for a city" aria-label=""
+                        aria-describedby="basic-addon1">
+                    <div class="input-group-append">
+                        <button class="btn btn-success" type="button">Search</button>
+                    </div>
+                </div>
+                <ul class="list-group">
+                    <li class="list-group-item">Morbi leo risus</li>
+                </ul>
+            </div>
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-body current-day-info">
+                        <h2 class="city-name">Current city</h2>
+                        <h4 class="current-temp">Temperature: </h4>
+                        <h4 class="current-humidity">Humidity: </h4>
+                        <h4 class="current-windspeed">Wind speed: </h4>
+                        <h4 class="current-uv">UV index: </h4>
+                    </div>
+                </div>
+                <h2>5-Day Forecast</h2>
+                <div class="row">
+                    <div class="col-md-2">
+                        <div class="card">
+                            <div class="card-body">
+                                This is some text within a card block.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card">
+                            <div class="card-body">
+                                This is some text within a card block.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card">
+                            <div class="card-body">
+                                This is some text within a card block.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card">
+                            <div class="card-body">
+                                This is some text within a card block.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="card">
+                            <div class="card-body">
+                                This is some text within a card block.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
